@@ -1,0 +1,11 @@
+model_config:
+  model_name: "deepseek-ai/deepseek-math-7b-base"
+  max_length: 2048
+  group_size: 8
+
+training_params:
+  epochs: 1000
+  batch_size: 16
+  learning_rate: 2e-5
+  beta: 0.01
+  epsilon: 0.2
